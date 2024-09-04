@@ -1,0 +1,68 @@
+@media (max-widht: 376px){
+    .modal #video {
+        widht: 250px;
+        height: 140px;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        background: rgb(6,28,60);
+background: linear-gradient(90deg, rgba(6,28,60,1) 0%, rgba(29,72,116,1) 72%, rgba(38,139,112,1) 100%);
+    }
+    .fundo-video{
+    display: none;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .container .hat-kid{
+        max-width: 70%;
+    }
+
+    .container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .container .descricao {
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .container .botao-trailer {
+        background-color: #263238;
+    }
+}
+
+
+
+@media (max-width: 500px){
+    .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .container .imagem-titulo{
+        max-width: 75%;
+    }
+
+    .modal .fechar-modal{
+        widht: 30px;
+        line-height: 30px;
+    }
+    
+    .modal #video{
+        widht: 300px;
+        height: 169px;
+    }
+}
+
